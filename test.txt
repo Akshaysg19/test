@@ -1,2 +1,3 @@
 Hi, This is the ne file from 2nd developer, and this is commited by 2nd developer
 change done on branch
+its is 2nd merge 
