@@ -7,7 +7,7 @@ pipeline {
 					// Set PATH to include the directory where Python is installed
 					withEnv(["PATH+PYTHON=C:\\Users\\USER\\AppData\\Local\\Programs\\Python\\Python312"]) {
 					// Perform SCM operations and run Python script
-					sh 'python C:\ProgramData\Jenkins\.jenkins\workspace\Git_2\hello.py'
+					bat 'python hello.py'
 					}
 				}
 			}
