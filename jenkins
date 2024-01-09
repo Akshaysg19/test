@@ -1,19 +1,15 @@
 pipeline {
   agent any
   stages {
-		stage('version') {
-			steps {
-				sh 'python3 --version'
-			}
-		}
-		stage('hello') {
-			script {
-				// Set PATH to include the directory where Python is installed
-				withEnv(["PATH+PYTHON=C:\\Users\\USER\\AppData\\Local\\Programs\\Python\\Python312"]) {
-				// Perform SCM operations and run Python script
-				sh 'python hello.py'
-				}
-			}
-		}
-	}
+    stage('version') {
+      steps {
+        sh 'python3 --version'
+      }
+    }
+    stage('hello') {
+      steps {
+        sh 'python3 hello.py'
+      }
+    }
+  }
 }
