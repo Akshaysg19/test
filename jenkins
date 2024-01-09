@@ -1,21 +1,18 @@
 pipeline {
   agent any
-  tools {nodejs "node" }
   stages {
-    stage('Cloning Git') {
+    stage('version') {
       steps {
-        git url: 'https://github.com/Akshaysg19/test.git',
-            credentialsId: 'Akshaysg19'
+        sh 'python3 --version'
       }
     }
-    stage('Build') {
-       steps {
-         sh 'npm install'
-       }
-    }
-    stage('Test') {
-      steps {
-        sh 'npm test'
+    stage('hello') {
+      script {
+        // Set PATH to include the directory where Python is installed
+        withEnv(["PATH+PYTHON=C:\\Users\\USER\\AppData\\Local\\Programs\\Python\\Python312"]) {
+        // Perform SCM operations and run Python script
+        sh 'python hello.py'
+        }
       }
     }
   }
