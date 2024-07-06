@@ -1,7 +1,4 @@
 Hi, This is the ne file from 2nd developer, and this is commited by 2nd developer
 change done on branch
-its is 2nd merge 
-its 3rd merge from the git
 
-want to 4th merge
-
+This is for git statsh
