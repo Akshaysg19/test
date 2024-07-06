@@ -2,3 +2,5 @@ Hi, This is the ne file from 2nd developer, and this is commited by 2nd develope
 change done on branch
 
 This is for git statsh
+
+This is for 2nd statsh
