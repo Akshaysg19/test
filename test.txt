@@ -4,7 +4,7 @@ change done on branch
 This is for git statsh
 
 This is for 2nd statsh
-<<<<<<< Updated upstream
-=======
 This is 3rd stash
->>>>>>> Stashed changes
+This is for git statsh
+
+This is for 2nd statsh
